@@ -1,0 +1,43 @@
+<div class="modal-header">
+    <h5 class="modal-title">{{ isEditMode ? 'Editar Usuario' : 'Agregar Usuario' }}</h5>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="username">Nombre de Usuario</label>
+        <input type="text" id="username" class="form-control" [(ngModel)]="user.username" name="username" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="form-control" [(ngModel)]="user.email" name="email" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="role">Rol</label>
+        <input type="text" id="role" class="form-control" [(ngModel)]="user.role" name="role" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="createdAt">Fecha de Creación</label>
+        <input type="date" id="createdAt" class="form-control" [(ngModel)]="user.createdAt" name="createdAt">
+      </div>
+  
+      <div class="form-group">
+        <label for="isActive">Activo</label>
+        <input type="checkbox" id="isActive" [(ngModel)]="user.isActive" name="isActive">
+      </div>
+  
+      <!-- Puedes agregar más campos aquí según los atributos de User -->
+    </form>
+  </div>
+  
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="activeModal.dismiss('Cancel click')">Cancelar</button>
+    <button type="button" class="btn btn-primary" (click)="saveUser()">Guardar</button>
+  </div>
+  

@@ -1,0 +1,41 @@
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h2>Lista de Instructores</h2>
+      <button class="btn btn-primary" (click)="openInstructorFormModal()">Agregar Instructor</button>
+    </div>
+  
+    <div *ngIf="instructores.length > 0; else noInstructores">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Teléfono</th>
+            <th>Especialidad</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let instructor of instructores">
+            <td>{{ instructor.instructorId }}</td>
+            <td>{{ instructor.nombre }}</td>
+            <td>{{ instructor.apellido }}</td>
+            <td>{{ instructor.email }}</td>
+            <td>{{ instructor.telefono }}</td>
+            <td>{{ instructor.especialidad }}</td>
+            <td>
+              <button class="btn btn-info btn-sm mx-1" (click)="openInstructorDetailsModal(instructor.instructorId)">Ver Detalles</button>
+              <button class="btn btn-warning btn-sm mx-1" (click)="openInstructorFormModal(instructor.instructorId)">Editar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <ng-template #noInstructores>
+      <p>No hay instructores disponibles.</p>
+    </ng-template>
+  </div>
+  

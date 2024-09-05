@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\controllers\\instructorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\controllers\\instructorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\controllers\\institucionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\controllers\\institucionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\models\\estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\models\\estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\models\\institucion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\models\\institucion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\webapi_20240905_michael_panches.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|c:\\users\\mpanches\\desktop\\prueba\\webapi_20240905_michael_panches\\webapi_20240905_michael_panches\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AF6B1D25-300B-4C18-812F-D6C0B68BD975}|WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj|solutionrelative:webapi_20240905_michael_panches\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:47:58.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InstitucionesController.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\InstitucionesController.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Controllers\\InstitucionesController.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\InstitucionesController.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Controllers\\InstitucionesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:46:21.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\User.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Models\\User.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:45:10.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Estudiantes.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\Estudiantes.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Models\\Estudiantes.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\Estudiantes.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Models\\Estudiantes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:44:57.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Inscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\Inscripcion.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Models\\Inscripcion.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\Inscripcion.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Models\\Inscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:44:37.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Models\\Instructor.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\Instructor.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Models\\Instructor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:44:14.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Program.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Program.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:23:58.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstructoresController.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\InstructoresController.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Controllers\\InstructoresController.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\InstructoresController.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Controllers\\InstructoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:47:33.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Institucion.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\Institucion.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Models\\Institucion.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\Institucion.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Models\\Institucion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:43:55.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InscripcionesController.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\InscripcionesController.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Controllers\\InscripcionesController.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\InscripcionesController.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Controllers\\InscripcionesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:43:40.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Models\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\DatabaseContext.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Models\\DatabaseContext.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAHsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:25:45.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\Curso.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Models\\Curso.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Models\\Curso.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Models\\Curso.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:36:03.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EstudiantesController.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\EstudiantesController.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Controllers\\EstudiantesController.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\EstudiantesController.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Controllers\\EstudiantesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:42:53.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CursosController.cs",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\CursosController.cs",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\Controllers\\CursosController.cs",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\Controllers\\CursosController.cs",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\Controllers\\CursosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:42:20.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WebAPI_20240905_Michael_Panches",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-05T18:34:32.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI_20240905_Michael_Panches\\appsettings.json",
+              "ToolTip": "C:\\Users\\mpanches\\Desktop\\Prueba\\WebAPI_20240905_Michael_Panches\\WebAPI_20240905_Michael_Panches\\appsettings.json",
+              "RelativeToolTip": "WebAPI_20240905_Michael_Panches\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-05T18:25:23.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

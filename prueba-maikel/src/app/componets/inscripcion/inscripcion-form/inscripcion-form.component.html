@@ -1,0 +1,35 @@
+<div class="modal-header">
+    <h5 class="modal-title">{{ isEditMode ? 'Editar Inscripción' : 'Agregar Inscripción' }}</h5>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <!-- <label for="curso">Curso</label>
+        <select id="curso" class="form-control" [(ngModel)]="inscripcion.cursoId" name="cursoId" required>
+          <option *ngFor="let curso of cursos" [value]="curso.cursoId">{{ curso.titulo }}</option>
+        </select> -->
+      </div>
+  
+      <div class="form-group">
+        <!-- <label for="estudiante">Estudiante</label>
+        <select id="estudiante" class="form-control" [(ngModel)]="inscripcion.estudianteId" name="estudianteId" required>
+          <option *ngFor="let estudiante of estudiantes" [value]="estudiante.estudianteId">{{ estudiante.nombre }}</option>
+        </select> -->
+      </div>
+  
+      <div class="form-group">
+        <label for="fechaInscripcion">Fecha de Inscripción</label>
+        <input type="date" id="fechaInscripcion" class="form-control" [(ngModel)]="inscripcion.fechaInscripcion" name="fechaInscripcion" required>
+      </div>
+    </form>
+  </div>
+  
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="activeModal.dismiss('Cancel click')">Cancelar</button>
+    <button type="button" class="btn btn-primary" (click)="saveInscripcion()">Guardar</button>
+  </div>
+  

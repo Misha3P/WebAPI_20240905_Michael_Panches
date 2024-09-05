@@ -1,0 +1,22 @@
+<div class="modal-header">
+    <h5 class="modal-title">Detalles de la Inscripción</h5>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  
+  <div class="modal-body">
+    <div *ngIf="inscripcion">
+      <p><strong>ID:</strong> {{ inscripcion.inscripcionId }}</p>
+      <p><strong>Curso:</strong> {{ inscripcion.curso.titulo }}</p>
+      <p><strong>Estudiante:</strong> {{ inscripcion.estudiante.nombre }}</p>
+      <p><strong>Fecha de Inscripción:</strong> {{ inscripcion.fechaInscripcion | date:'shortDate' }}</p>
+    </div>
+  </div>
+  
+  <div class="modal-footer">
+    <button type="button" class="btn btn-danger" (click)="deleteInscripcion()">Eliminar</button>
+    <button type="button" class="btn btn-secondary" (click)="editInscripcion()">Editar</button>
+    <button type="button" class="btn btn-secondary" (click)="activeModal.dismiss('Close click')">Cerrar</button>
+  </div>
+  

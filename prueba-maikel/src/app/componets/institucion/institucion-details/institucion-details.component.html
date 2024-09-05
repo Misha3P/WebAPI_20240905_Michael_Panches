@@ -1,0 +1,24 @@
+<div class="modal-header">
+    <h5 class="modal-title">Detalles de la Institución</h5>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  
+  <div class="modal-body">
+    <div *ngIf="institucion">
+      <p><strong>ID:</strong> {{ institucion.institucionId }}</p>
+      <p><strong>Nombre:</strong> {{ institucion.nombre }}</p>
+      <p><strong>Dirección:</strong> {{ institucion.direccion }}</p>
+      <p><strong>Teléfono:</strong> {{ institucion.telefono }}</p>
+      <p><strong>Email:</strong> {{ institucion.email }}</p>
+      <!-- Agrega más detalles según la estructura del objeto Institucion -->
+    </div>
+  </div>
+  
+  <div class="modal-footer">
+    <button type="button" class="btn btn-danger" (click)="deleteInstitucion()">Eliminar</button>
+    <button type="button" class="btn btn-secondary" (click)="editInstitucion()">Editar</button>
+    <button type="button" class="btn btn-secondary" (click)="activeModal.dismiss('Close click')">Cerrar</button>
+  </div>
+  

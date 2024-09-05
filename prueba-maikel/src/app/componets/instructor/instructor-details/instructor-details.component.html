@@ -1,0 +1,25 @@
+<div class="modal-header">
+    <h5 class="modal-title">Detalles del Instructor</h5>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  
+  <div class="modal-body">
+    <div *ngIf="instructor">
+      <p><strong>ID:</strong> {{ instructor.instructorId }}</p>
+      <p><strong>Nombre:</strong> {{ instructor.nombre }}</p>
+      <p><strong>Apellido:</strong> {{ instructor.apellido }}</p>
+      <p><strong>Email:</strong> {{ instructor.email }}</p>
+      <p><strong>Teléfono:</strong> {{ instructor.telefono }}</p>
+      <p><strong>Especialidad:</strong> {{ instructor.especialidad }}</p>
+      <!-- Agrega más detalles según la estructura del objeto Instructor -->
+    </div>
+  </div>
+  
+  <div class="modal-footer">
+    <button type="button" class="btn btn-danger" (click)="deleteInstructor()">Eliminar</button>
+    <button type="button" class="btn btn-secondary" (click)="editInstructor()">Editar</button>
+    <button type="button" class="btn btn-secondary" (click)="activeModal.dismiss('Close click')">Cerrar</button>
+  </div>
+  

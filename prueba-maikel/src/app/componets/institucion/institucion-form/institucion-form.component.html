@@ -1,0 +1,38 @@
+<div class="modal-header">
+    <h5 class="modal-title">{{ isEditMode ? 'Editar Institución' : 'Agregar Institución' }}</h5>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" class="form-control" [(ngModel)]="institucion.nombre" name="nombre" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion" class="form-control" [(ngModel)]="institucion.direccion" name="direccion" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="telefono">Teléfono</label>
+        <input type="text" id="telefono" class="form-control" [(ngModel)]="institucion.telefono" name="telefono" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="form-control" [(ngModel)]="institucion.email" name="email" required>
+      </div>
+  
+      <!-- Puedes agregar más campos aquí según los atributos de Institucion -->
+    </form>
+  </div>
+  
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="activeModal.dismiss('Cancel click')">Cancelar</button>
+    <button type="button" class="btn btn-primary" (click)="saveInstitucion()">Guardar</button>
+  </div>
+  

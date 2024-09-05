@@ -1,0 +1,38 @@
+<div class="modal-header">
+    <h5 class="modal-title">{{ isEditMode ? 'Editar Curso' : 'Agregar Curso' }}</h5>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" class="form-control" [(ngModel)]="curso.titulo" name="titulo" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="descripcion">Descripción</label>
+        <textarea id="descripcion" class="form-control" [(ngModel)]="curso.descripcion" name="descripcion" required></textarea>
+      </div>
+  
+      <div class="form-group">
+        <label for="fechaInicio">Fecha de Inicio</label>
+        <input type="date" id="fechaInicio" class="form-control" [(ngModel)]="curso.fechaInicio" name="fechaInicio" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="fechaFin">Fecha de Fin</label>
+        <input type="date" id="fechaFin" class="form-control" [(ngModel)]="curso.fechaFin" name="fechaFin" required>
+      </div>
+  
+      <!-- Puedes agregar más campos aquí según los atributos de Curso -->
+    </form>
+  </div>
+  
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="activeModal.dismiss('Cancel click')">Cancelar</button>
+    <button type="button" class="btn btn-primary" (click)="saveCurso()">Guardar</button>
+  </div>
+  

@@ -1,0 +1,41 @@
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h2>Lista de Usuarios</h2>
+      <button class="btn btn-primary" (click)="openUserFormModal()">Agregar Usuario</button>
+    </div>
+  
+    <div *ngIf="users.length > 0; else noUsers">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre de Usuario</th>
+            <th>Email</th>
+            <th>Rol</th>
+            <th>Fecha de Creación</th>
+            <th>Activo</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users">
+            <td>{{ user.id }}</td>
+            <td>{{ user.username }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.role }}</td>
+            <td>{{ user.createdAt | date:'shortDate' }}</td>
+            <td>{{ user.isActive ? 'Sí' : 'No' }}</td>
+            <td>
+              <button class="btn btn-info btn-sm mx-1" (click)="openUserDetailsModal(user.id)">Ver Detalles</button>
+              <button class="btn btn-warning btn-sm mx-1" (click)="openUserFormModal(user.id)">Editar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <ng-template #noUsers>
+      <p>No hay usuarios disponibles.</p>
+    </ng-template>
+  </div>
+s  

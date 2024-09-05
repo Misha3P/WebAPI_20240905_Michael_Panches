@@ -1,0 +1,39 @@
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h2>Lista de Instituciones</h2>
+      <button class="btn btn-primary" (click)="openInstitucionFormModal()">Agregar Institución</button>
+    </div>
+  
+    <div *ngIf="instituciones.length > 0; else noInstituciones">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+            <th>Email</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let institucion of instituciones">
+            <td>{{ institucion.institucionId }}</td>
+            <td>{{ institucion.nombre }}</td>
+            <td>{{ institucion.direccion }}</td>
+            <td>{{ institucion.telefono }}</td>
+            <td>{{ institucion.email }}</td>
+            <td>
+              <button class="btn btn-info btn-sm mx-1" (click)="openInstitucionDetailsModal(institucion.institucionId)">Ver Detalles</button>
+              <button class="btn btn-warning btn-sm mx-1" (click)="openInstitucionFormModal(institucion.institucionId)">Editar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <ng-template #noInstituciones>
+      <p>No hay instituciones disponibles.</p>
+    </ng-template>
+  </div>
+  

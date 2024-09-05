@@ -1,0 +1,40 @@
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Lista de Cursos</h2>
+        <button class="btn btn-primary" (click)="openCursoFormModal()">Agregar Curso</button>
+    </div>
+
+    <div *ngIf="cursos.length > 0; else noCursos">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Título</th>
+                    <th>Descripción</th>
+                    <th>Fecha de Inicio</th>
+                    <th>Fecha de Fin</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let curso of cursos">
+                    <td>{{ curso.cursoId }}</td>
+                    <td>{{ curso.titulo }}</td>
+                    <td>{{ curso.descripcion }}</td>
+                    <td>{{ curso.fechaInicio | date:'shortDate' }}</td>
+                    <td>{{ curso.fechaFin | date:'shortDate' }}</td>
+                    <td>
+                        <button class="btn btn-info btn-sm mx-1" (click)="openCursoDetailsModal(curso.cursoId)">Ver
+                            Detalles</button>
+                        <button class="btn btn-warning btn-sm mx-1"
+                            (click)="openCursoFormModal(curso.cursoId)">Editar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <ng-template #noCursos>
+        <p>No hay cursos disponibles.</p>
+    </ng-template>
+</div>

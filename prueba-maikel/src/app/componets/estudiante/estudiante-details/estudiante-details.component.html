@@ -1,0 +1,25 @@
+<div class="modal-header">
+    <h5 class="modal-title">Detalles del Estudiante</h5>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  
+  <div class="modal-body">
+    <div *ngIf="estudiante">
+      <p><strong>ID:</strong> {{ estudiante.estudianteId }}</p>
+      <p><strong>Nombre:</strong> {{ estudiante.nombre }}</p>
+      <p><strong>Apellido:</strong> {{ estudiante.apellido }}</p>
+      <p><strong>Email:</strong> {{ estudiante.email }}</p>
+      <p><strong>Teléfono:</strong> {{ estudiante.telefono }}</p>
+      <p><strong>Fecha de Nacimiento:</strong> {{ estudiante.fechaNacimiento | date:'shortDate' }}</p>
+      <!-- Agrega más detalles según la estructura del objeto Estudiante -->
+    </div>
+  </div>
+  
+  <div class="modal-footer">
+    <button type="button" class="btn btn-danger" (click)="deleteEstudiante()">Eliminar</button>
+    <button type="button" class="btn btn-secondary" (click)="editEstudiante()">Editar</button>
+    <button type="button" class="btn btn-secondary" (click)="activeModal.dismiss('Close click')">Cerrar</button>
+  </div>
+  
